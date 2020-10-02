@@ -7,4 +7,9 @@ appimageTools.wrapType2 {
         sha256 = "0vg71swk7xqgqjf4mna9ikzly8dplklyrpi61iav673frss54bb6";
     };
     extraPkgs = pkgs: with pkgs; [ ]; 
+    meta = with stdenv.lib; {
+        homepage = "https://k8slens.dev/";
+        description = "Kubernetes IDE for debugging";
+        license = "MIT";
+  };
 }   
